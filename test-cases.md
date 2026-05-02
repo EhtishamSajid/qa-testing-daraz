@@ -214,5 +214,284 @@ Pass
 
 ----------------------------------------------------------------------------------------------------------------------
 
-## TC-10: Verify filters (price/category) work correctly
+## TC-11: Verify product details page loads correctly
 
+**Related Scenario:** TS-11  
+
+**Precondition:** User is on product listing page  
+
+**Steps:**
+1. Click on any product  
+2. Wait for product details page to load  
+
+**Expected Result:**  
+Product details page should load successfully without errors  
+
+**Actual Result:**  
+Product details page loaded successfully  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-12: Verify product images are displayed properly
+
+**Related Scenario:** TS-12  
+
+**Precondition:** User is on product details page  
+
+**Steps:**
+1. Open any product page  
+2. Observe product images  
+
+**Expected Result:**  
+All product images should load clearly without distortion or missing thumbnails  
+
+**Actual Result:**  
+Product images displayed correctly and clearly  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-13: Verify product price and description are visible
+
+**Related Scenario:** TS-13  
+
+**Precondition:** User is on product details page  
+
+**Steps:**
+1. Open any product page  
+2. Observe product price and description section  
+
+**Expected Result:**  
+Product price and description should be visible and readable  
+
+**Actual Result:**  
+Product price and description were visible successfully  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-14: Verify user can add product to cart
+
+**Related Scenario:** TS-14  
+
+**Precondition:** User is on product details page  
+
+**Steps:**
+1. Select any product  
+2. Click “Add to Cart” button  
+
+**Expected Result:**  
+Selected product should be added to cart successfully  
+
+**Actual Result:**  
+Product added to cart successfully  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-15: Verify user can remove product from cart
+
+**Related Scenario:** TS-15  
+
+**Precondition:** Product already exists in cart  
+
+**Steps:**
+1. Open cart  
+2. Click remove/delete button on product  
+
+**Expected Result:**  
+Product should be removed from cart successfully  
+
+**Actual Result:**  
+Product removed from cart successfully  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-16: Verify quantity update in cart
+
+**Related Scenario:** TS-16  
+
+**Precondition:** Product exists in cart  
+
+**Steps:**
+1. Open cart  
+2. Increase or decrease product quantity  
+
+**Expected Result:**  
+Cart quantity and total price should update correctly  
+
+**Actual Result:**  
+Quantity updated but total price did not update immediately  
+
+**Status:**  
+Fail
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-17: Verify cart retains items after page refresh
+
+**Related Scenario:** TS-17  
+
+**Precondition:** Product exists in cart  
+
+**Steps:**
+1. Add product to cart  
+2. Refresh browser page  
+
+**Expected Result:**  
+Cart items should remain saved after refresh  
+
+**Actual Result:**  
+Cart items remained available after refresh  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-18: Verify user can proceed to checkout
+
+**Related Scenario:** TS-18  
+
+**Precondition:** Product exists in cart  
+
+**Steps:**
+1. Open cart  
+2. Click checkout button  
+
+**Expected Result:**  
+User should be redirected to checkout page  
+
+**Actual Result:**  
+User redirected to checkout page successfully  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-19: Verify address selection during checkout
+
+**Related Scenario:** TS-19  
+
+**Precondition:** User is on checkout page  
+
+**Steps:**
+1. Select delivery address  
+2. Save/confirm address  
+
+**Expected Result:**  
+Selected address should be saved successfully  
+
+**Actual Result:**  
+Address saved successfully  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-20: Verify order summary is displayed correctly
+
+**Related Scenario:** TS-20  
+
+**Precondition:** User is on checkout page  
+
+**Steps:**
+1. Proceed to order summary section  
+2. Observe product details and pricing  
+
+**Expected Result:**  
+Order summary should display correct products, quantity, and pricing  
+
+**Actual Result:**  
+Order summary displayed correct information successfully  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-21: Verify homepage loads without errors
+
+**Related Scenario:** TS-21  
+
+**Steps:**
+1. Open Daraz homepage  
+
+**Expected Result:**  
+Homepage should load successfully without broken UI or loading issues  
+
+**Actual Result:**  
+Homepage loaded successfully without errors  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-22: Verify all links are clickable and working
+
+**Related Scenario:** TS-22  
+
+**Steps:**
+1. Click multiple navigation and footer links  
+
+**Expected Result:**  
+All links should redirect to correct pages successfully  
+
+**Actual Result:**  
+Some footer links redirected to incorrect pages  
+
+**Status:**  
+Fail
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-23: Verify responsiveness on different screen sizes
+
+**Related Scenario:** TS-23  
+
+**Steps:**
+1. Resize browser window  
+2. Test website on mobile/tablet view  
+
+**Expected Result:**  
+Website layout should adjust properly on all screen sizes  
+
+**Actual Result:**  
+Navbar overlapped on smaller screen sizes  
+
+**Status:**  
+Fail
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-24: Verify error messages are user-friendly
+
+**Related Scenario:** TS-24  
+
+**Steps:**
+1. Trigger validation or error messages  
+2. Observe displayed message  
+
+**Expected Result:**  
+Error messages should be clear, meaningful, and easy to understand  
+
+**Actual Result:**  
+Error messages were understandable and user-friendly  
+
+**Status:**  
+Pass
