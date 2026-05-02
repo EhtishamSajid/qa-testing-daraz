@@ -103,3 +103,116 @@ Logout successfully, redirected to login page.
 
 **Status:**  
 Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+# Test Cases – Search & Navigation
+
+## TC-06: Search with valid product name
+
+**Related Scenario:** TS-06  
+
+**Precondition:** User is on homepage/search bar is visible  
+
+**Steps:**
+1. Enter a valid product name in search bar  
+2. Click on search button or press Enter  
+
+**Expected Result:**  
+Relevant products related to the searched keyword should be displayed  
+
+**Actual Result:**  
+Relevant products were displayed successfully based on the searched keyword  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-07: Search with invalid/random text
+
+**Related Scenario:** TS-07  
+
+**Precondition:** User is on homepage/search bar is visible  
+
+**Steps:**
+1. Enter random/non-existing product text in search bar  
+2. Click search button  
+
+**Expected Result:**  
+System should display message like “No products found”  
+
+**Actual Result:**  
+System displayed unrelated/random products instead of “No products found” message  
+
+**Status:**  
+Fail
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-08: Verify search suggestions appear while typing
+
+**Related Scenario:** TS-08  
+
+**Precondition:** User is on homepage/search bar is visible  
+
+**Steps:**
+1. Click on search bar  
+2. Start typing product name slowly  
+
+**Expected Result:**  
+Search suggestions should appear dynamically while typing  
+
+**Actual Result:**  
+Relevant search suggestions appeared while typing  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-09: Verify user can navigate through categories
+
+**Related Scenario:** TS-09  
+
+**Precondition:** User is on homepage  
+
+**Steps:**
+1. Click on any product category  
+2. Navigate to subcategories/products  
+
+**Expected Result:**  
+User should be redirected to selected category page successfully  
+
+**Actual Result:**  
+Selected category page opened successfully with related products  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-10: Verify filters (price/category) work correctly
+
+**Related Scenario:** TS-10  
+
+**Precondition:** User has searched for a product  
+
+**Steps:**
+1. Apply price filter  
+2. Apply category filter  
+3. Observe filtered results  
+
+**Expected Result:**  
+Products should be displayed according to selected filters  
+
+**Actual Result:**  
+Products were filtered correctly according to selected filters  
+
+**Status:**  
+Pass
+
+----------------------------------------------------------------------------------------------------------------------
+
+## TC-10: Verify filters (price/category) work correctly
+
