@@ -25,6 +25,9 @@ System displayed unrelated/random products instead of showing “No products fou
 ### Status
 Open
 
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/90cdf140-f091-4a83-8c5f-ce3523bd12e2" />
+
+
 -------------------------------------------------------------------------------------------------------
 
 ## BUG-02: Cart total price does not update immediately after quantity change
